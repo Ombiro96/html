@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+p{
+    background-color: beige;
+}
+h2{
+    color: red;
+}
+.Cliff{
+    font-size: 20px;
+    color: darkslateblue;
+    font-style: italic;
+    border: 5px solid red;/*This creates a border of solid red with 5px depth*/
+    padding: 10px;/*this creates a gap between the border and text*/
+    margin:10px;/*creates a space outside the border*/
+}
