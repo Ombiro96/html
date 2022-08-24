@@ -20,3 +20,6 @@ img{
     width: 100px;
     align-items: center;
 }
+button{
+    background-color: chartreuse;
+}
