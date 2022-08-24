@@ -10,8 +10,27 @@
             console.log("Hello, World!");//This line prints out hello world
         </script>
         <h4 id="chapter 3">Chapter 3</h4>
-        <img src="ace.png" alt="Portgas D. Ace">
-        <br>
-        <img src="ace.gif" alt="Shiruken">
+        <p><img class="png" src="ace.png" alt="Portgas D. Ace">
+            This is an image of Portgas D. ace, son to the former pirate king<br>
+            , brother to Monkey D. Luffy and Sabo, and second captain to the<br>
+            Whitebeard pirates.
+        </p>
+        <hr>
+        <p><img class="gif" src="ae.gif" alt="Shiruken"></p><!--I edited the name to remove the gif for now
+        , change to ace.png and it should be fine-->
+        <img src="raftel.jpg" alt="one piece legends" class="maps" usemap="#raftel"><!--usemap uses #name-->
+        <map name="raftel">
+            <area shape="circle" alt="luffy" coords="470,270,100" href="luffy.png" target="_blank"
+            onclick="onepiece()">
+            <!--the coord are x,y,radius-->
+            <area shape="rect" alt="roger" coords="700,270,850,370" href="roger.png" target="_blank">
+            <!--the coords are x,y x,y-->
+            <!--is actually lit, will work on it more later-->
+            </map>
+            <script>
+                function onepiece(){
+                    alert("This is luffy, brother to ace");
+                }
+            </script>
     </body>
     </html>

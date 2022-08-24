@@ -1,8 +1,21 @@
 body{
     color: blue;
 }
-img{
+/*the .gif represents a class within tags and will apply to that
+while something like img will apply to all img elements*/
+.gif{
     height:30%;
     width:30%;
-    float: right;
+    border: 10%;
+    border-color: aquamarine;
+    margin: 20%;
+}
+.png{
+    float: right;/*This makes the image move to the right*/
+    height:f100px;
+    width: 100px;
+}
+.maps{
+    height: 100%;
+    width: 100%;
 }
